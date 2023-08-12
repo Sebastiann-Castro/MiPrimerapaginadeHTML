@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos.css">
+    <title>FIFA</title>
+    <style>
+        h1{
+            color: #ffffff;
+        }
+
+        h2{
+            color: #ffffff;
+        }
+        td{
+            color: rgb(250, 250, 250)cfc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/Easports_fifa_logo.svg.png" alt=""width="400" height="150">
+            <h1 class="titulo">FIFA</h1>
+        </div>
+        <video muted autoplay loop class="Fondodepagina">
+         <source src="video/Fondo.mp4" type="video/mp4">
+ 
+        </video>
+    </header>
+    <audio id="Musica" autoplay>
+        <source src="audio/y2mate.com - Eladio Carrión  Mbappe Video Oficial  SEN2 KBRN VOL 2_320kbps.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+          function PlayAudio(){
+              document.getElementById("Musica").play();
+          }
+      </script>
+     <ul class="Menu">
+        <li>
+            <a href="inde.html">Inicio</a>
+        </li>
+        <li>
+            <a href="Listadejugadores.html">Lista de jugadores</a>
+        </li>
+        <li>
+            <a href="FIFAS ANTERIORES.html">FIFAS ANTERIORES</a>
+        </li>
+        <li>
+            <a href="Datosparajugar.html">Quieres jugar contra mi? </a>
+        </li>
+        <li>
+            <a href="SeccionEspecial.html">Seccion Especial</a>
+        </li>
+    </ul>
+    <h1>Dejame tus datos y hora para jugar  :D</h1><br><br>
+    <form class="Formulario">
+        Nombre<br>
+        <input type="text" name="name"><br><br>
+        Apellido<br>
+        <input type="text" name="name"><br><br>
+       
+        <input type="radio" name="sex" value="Male"> Hombre<br><br>
+        
+        <input type="radio" name="sex" value="Female">Mujer<br><br>
+        
+        <input type="radio" name="sex" value="indefinido">indefinido <br><br>
+        Dia de juego <br>
+        <input type="date" name="Fecha"><br><br>
+        Codigo<br>
+        <input type="text" name="name"><br><br>
+        Hora<br>
+        <input type="time" name="name"><br><br>
+
+
+    </form>
+    
+</body>
+</html>
